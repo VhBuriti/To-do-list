@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>To do List</title>
+        <link rel="stylesheet" href="/style.css">
+    </head>
+    <body>
+        <div class="main">
+            <div class="wrapper">
+                <header>To do List</header>
+                <div class="inputfield">
+                    <input type="text" id="inputbox" placeholder="Add your next to do item...">
+                    <button id="addbtn" type="button">+</button>
+                </div>
+
+                <ul class="todolist">
+                    
+                </ul>
+
+                <div class="cleaner">
+                    <span>You have <i id="numbers"></i> itens</span>
+
+                    <button class="clean" type="button" onclick="clean()">Clear all</button>
+
+                </div>
+            </div>
+        </div>
+        <script src="/script.js"></script>
+
+    </body>
+</html>

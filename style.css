@@ -1,0 +1,101 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.main{
+    width: 450px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 25px;
+
+}
+
+body{
+    height: 100vh;
+    font-size: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#42275a 0%, #734b6d 100%)
+}
+
+header{
+    font-size: 29px;
+    padding-bottom: 15px;
+}
+
+.inputfield input{
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #a399ac;
+}
+
+.inputfield button{
+    margin-left: 10px;
+    padding: 9px 15px;
+    background-color: #42275a;
+    color: #f1ecf7;
+    font-size: 19px;
+    border: none;
+    opacity: 0.3;
+    pointer-events: none;
+    transition: all 0.6s ease-in-out;
+}
+
+
+.inputfield button.active{
+    opacity: 1;
+    pointer-events: auto;
+    cursor: pointer;
+}
+
+
+.todolist{
+    list-style: none;
+    padding-left: 0px;
+}
+
+.todolist li{
+    margin: 10px 0px;
+    padding: 25px;
+    background-color: #e9e8e8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cleaner button{
+    padding: 9px 15px;
+    background-color: #563574;
+    color: #f1ecf7;
+    font-size: 17px;
+    border: none;
+    align-self: flex-end;
+    cursor: pointer;
+    
+}
+
+.cleaner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#numbers{
+    color: red;
+    font-style: normal;
+}
+
+.inputfield input:hover{
+    border: 1px solid black;
+}
+
+.cln_btn{
+    background-color: #F94747;
+    padding: 18px;
+    display: none;
+}
+
